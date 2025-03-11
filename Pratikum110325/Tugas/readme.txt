@@ -1,1 +1,0 @@
-Tugas pratikum110325
