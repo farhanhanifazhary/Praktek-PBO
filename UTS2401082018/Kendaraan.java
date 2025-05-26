@@ -27,4 +27,9 @@ public class Kendaraan {
     public String getWarna() {
         return warna;
     }
+    
+    public void display() {
+        System.out.println("Jumlah Roda: " + jmlRoda);
+        System.out.println("Warna: " + warna);
+    }
 }

@@ -8,6 +8,7 @@ package UTS2401082018;
  *
  * @author Lenovo
  */
+
 public class SepedaListrik extends Sepeda {
     protected int kecepatanMaks;
     protected int jarakTempuh;
@@ -26,6 +27,14 @@ public class SepedaListrik extends Sepeda {
     
     public int getJarakTempuh() {
         return jarakTempuh;
+    }
+    
+    @Override
+    public void display() {
+        System.out.println("Kelas Sepeda Listrik");
+        super.display();
+        System.out.println("Kecepatan Maks: " + kecepatanMaks + " Km/h");
+        System.out.println("Jarak Tempuh: " + jarakTempuh + " Km");
     }
 }
 

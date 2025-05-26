@@ -27,4 +27,11 @@ public class Sepeda extends Kendaraan {
     public int getJmlGir() {
         return jmlGir;
     }
+    
+    @Override
+    public void display() {
+        super.display();
+        System.out.println("Jumlah Sadel: " + jmlSadel);
+        System.out.println("Jumlah Gir: " + jmlGir);
+    }
 }
