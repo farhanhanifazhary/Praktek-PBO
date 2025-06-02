@@ -1,4 +1,0 @@
-- Class Bread, Donuts, Cookies, SwissRolls, dan Special merupakan inheritance dari class abstract Menu
-- Class Cart dan MenuManager merupakan aggregation dengan Menu karena Cart dan MenuManager memiliki dan mengelola Menu
-- Class CashPayment, EWalletPayment, dan CreditPayment merupakan implementasi dari ProccessPayment
-- Class Cart memiliki hubungan dependancy dengan PaymentProccess Karena Cart dapat menggunakan metode pembayaran apa pun (cash, e-wallet, dan kredit) untuk memproses pembayaran.
